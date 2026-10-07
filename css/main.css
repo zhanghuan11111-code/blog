@@ -1381,7 +1381,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #b3ffff;
+    background: #665b81;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3028,4 +3028,11 @@ body {
   :root {
     --body-bg-color: #0ba53e;
   }
+}
+/* 头像悬停旋转 */
+.site-author-image {
+  transition: transform 0.5s ease;
+}
+.site-author-image:hover {
+  transform: rotate(360deg);
 }
