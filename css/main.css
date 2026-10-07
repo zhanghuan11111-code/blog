@@ -1381,7 +1381,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #f116c9;
+    background: #f4b4ff;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3018,7 +3018,7 @@ header.header {
   }
 }
 body {
-  background: url("/images/mortis.gif") center center fixed no-repeat;
+  background: url("/images/mortis.jpg") center center fixed no-repeat;
   background-size: cover;
 }
 :root {
@@ -3045,6 +3045,54 @@ body {
 @media (prefers-color-scheme: dark) {
   :root {
     --text-color: #070707;
+  }
+}
+:root {
+  --link-color: #1e6bb8;
+  --link-hover-color: #0d47a1;
+  --brand-color: #1a1a1a;
+  --brand-hover-color: #1e6bb8;
+  --blockquote-color: #666;
+  --selection-bg: #2a7ae2;
+  --selection-color: #fff;
+  --table-row-odd-bg-color: #f7f8fa;
+  --table-row-hover-bg-color: #eef1f5;
+  --menu-item-bg-color: #fff;
+  --theme-color: #1e6bb8;
+  --btn-default-bg: #fff;
+  --btn-default-color: #1a1a1a;
+  --btn-default-border-color: #d0d7de;
+  --btn-default-hover-bg: #f6f8fa;
+  --btn-default-hover-color: #1a1a1a;
+  --btn-default-hover-border-color: #9aa7b4;
+  --highlight-background: #f6f8fa;
+  --highlight-foreground: #24292f;
+  --highlight-gutter-background: #eff2f5;
+  --highlight-gutter-foreground: #6e7781;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --link-color: #0056b3;
+    --link-hover-color: #003d80;
+    --brand-color: #111;
+    --brand-hover-color: #0056b3;
+    --blockquote-color: #555;
+    --selection-bg: #1e6bb8;
+    --selection-color: #fff;
+    --table-row-odd-bg-color: #f0f0f0;
+    --table-row-hover-bg-color: #e4e4e4;
+    --menu-item-bg-color: #e8e8e8;
+    --theme-color: #0056b3;
+    --btn-default-bg: #f5f5f5;
+    --btn-default-color: #111;
+    --btn-default-border-color: #c0c0c0;
+    --btn-default-hover-bg: #eaeaea;
+    --btn-default-hover-color: #111;
+    --btn-default-hover-border-color: #aaa;
+    --highlight-background: #f0f0f0;
+    --highlight-foreground: #24292f;
+    --highlight-gutter-background: #e6e6e6;
+    --highlight-gutter-foreground: #666;
   }
 }
 /* 头像悬停旋转 */
