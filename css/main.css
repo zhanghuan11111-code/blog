@@ -1381,7 +1381,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #6ff;
+    background: #fff;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3076,6 +3076,9 @@ body {
     --highlight-gutter-background: #1a2315;
     --highlight-gutter-foreground: #7d8a71;
   }
+}
+.footer {
+  color: var(--text-color);
 }
 /* 头像悬停旋转 */
 .site-author-image {
