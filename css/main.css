@@ -1381,7 +1381,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #911d36;
+    background: #4ee329;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3018,7 +3018,7 @@ header.header {
   }
 }
 body {
-  background: url("/blog/images/mortis.jpg") center center fixed no-repeat;
+  background: url("/images/mortis.jpg") center center fixed no-repeat;
   background-size: cover;
 }
 :root {
