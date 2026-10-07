@@ -26,7 +26,7 @@
   --highlight-gutter-foreground: #555;
   color-scheme: light;
 }
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark), (prefers-color-scheme: light) {
   :root {
     --body-bg-color: #282828;
     --content-bg-color: #333;
@@ -521,7 +521,7 @@ code.hljs {
 .hljs-strong {
   font-weight: bold
 }
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark), (prefers-color-scheme: light) {
 pre code.hljs {
   display: block;
   overflow-x: auto;
@@ -724,7 +724,7 @@ figure.highlight {
   position: relative;
   color-scheme: light;
 }
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark), (prefers-color-scheme: light) {
   figure.highlight {
     color-scheme: dark;
   }
@@ -1412,7 +1412,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #c44170;
+    background: #6ccf59;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2601,7 +2601,7 @@ ul.breadcrumb li:last-child {
   border-bottom-color: #111;
   color: #111;
 }
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark), (prefers-color-scheme: light) {
   .tag-cloud-0 {
     border-bottom-color: #555;
     color: #555;
@@ -2705,7 +2705,7 @@ ul.breadcrumb li:last-child {
   display: flex;
   padding: 5px;
 }
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark), (prefers-color-scheme: light) {
   .search-popup .search-header {
     background: #666;
   }
@@ -3116,7 +3116,7 @@ body {
   --highlight-gutter-background: #e3ecd1;
   --highlight-gutter-foreground: #6e7d5f;
 }
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark), (prefers-color-scheme: light) {
   :root {
     --body-bg-color: #161d12;
     --content-bg-color: #1e2818;
