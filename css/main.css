@@ -1381,7 +1381,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #524247;
+    background: #b3ffff;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3018,7 +3018,7 @@ header.header {
   }
 }
 body {
-  background: url("/blog/images/mortis.gif") center center fixed no-repeat;
+  background: url("/images/mortis.gif") center center fixed no-repeat;
   background-size: cover;
 }
 :root {
@@ -3026,6 +3026,6 @@ body {
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --body-bg-color: #1e1e1e;
+    --body-bg-color: #0ba53e;
   }
 }
