@@ -1381,7 +1381,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #3be0ff;
+    background: #f116c9;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3037,6 +3037,14 @@ body {
   :root {
     --content-bg-color: #d7dddb;
     --card-bg-color: #d1c2c2;
+  }
+}
+:root {
+  --text-color: #1a1a1a;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #070707;
   }
 }
 /* 头像悬停旋转 */
