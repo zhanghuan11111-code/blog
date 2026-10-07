@@ -1381,7 +1381,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #c2feff;
+    background: #8ef463;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3015,5 +3015,13 @@ header.header {
   }
   .comments {
     padding: 10px 12px;
+  }
+}
+:root {
+  --body-bg-color: #f0f2f5;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg-color: #1e1e1e;
   }
 }
