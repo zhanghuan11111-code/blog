@@ -1412,7 +1412,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #11ffe7;
+    background: #9f24ff;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3162,4 +3162,27 @@ body {
   color: var(--link-hover-color);
   border-bottom-color: currentColor;
   text-decoration: none;
+}
+.tag-cloud-title {
+  font-size: 0.95em;
+  color: var(--text-color);
+  opacity: 0.75;
+}
+.tag-cloud-tags a {
+  display: inline-block;
+  margin: 6px 4px;
+  padding: 4px 16px;
+  line-height: 1.7;
+  background: var(--card-bg-color);
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+.tag-cloud-tags a:hover {
+  background: var(--theme-color);
+  color: var(--btn-default-color);
+  border-color: var(--theme-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.22);
 }
